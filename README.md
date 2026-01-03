@@ -29,4 +29,6 @@ https://blazorise.com/
 
 https://jsonformatter.org/json-to-csharp
 
+https://app.quicktype.io/?l=csharp
+
 https://metmuseum.github.io/
