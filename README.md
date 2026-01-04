@@ -32,3 +32,10 @@ https://jsonformatter.org/json-to-csharp
 https://app.quicktype.io/?l=csharp
 
 https://metmuseum.github.io/
+
+## EntityFramework Core Commands
+
+Add-Migration InitialCreate -Project Met.Museum.Data -StartupProject Met.Museum.UI -Context MetDbContext
+
+Update-Database -Project Met.Museum.Data -StartupProject Met.Museum.UI -Context MetDbContext
+
