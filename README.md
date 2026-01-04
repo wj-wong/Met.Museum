@@ -34,8 +34,27 @@ https://app.quicktype.io/?l=csharp
 https://metmuseum.github.io/
 
 ## EntityFramework Core Commands
+### In Command Prompt
 
-Add-Migration InitialCreate -Project Met.Museum.Data -StartupProject Met.Museum.UI -Context MetDbContext
+C:\Projects\Met.Museum.Data> dotnet ef migratins add InitialCreate
 
-Update-Database -Project Met.Museum.Data -StartupProject Met.Museum.UI -Context MetDbContext
+C:\Projects\Met.Museum.Data> dotnet ef database update
+
+### In Visual Studio's Package Manager Console
+
+Set startup project:
+
+Right-click Met.Museum.Data
+
+Set as Startup Project
+
+In PMC:
+
+Default Project → Met.Museum.Data
+
+Run:
+
+Add-Migration InitialCreate
+
+Update-Database
 
